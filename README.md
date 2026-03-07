@@ -14,13 +14,13 @@ I specialize in bridging high-level Object-Oriented domain logic with bare-metal
 
 ### 🚀 Featured Architectures
 
-#### 1. [Hybrid ECS: Dual-Flow Architecture](INSERT_REPO_LINK_HERE)
+#### 1. [Hybrid ECS: Dual-Flow Architecture](https://github.com/ckCrimson/Hybrid_ECS_RANDOM_WALKER.git)
 A generalized Entity Component System explicitly designed to bypass the "Python Object Tax."
 * **The Architecture:** Flattens pure OOP hierarchical structures into contiguous C-arrays using strict memory contracts.
 * **The Performance:** Achieved a **~300x execution speedup** on a 100,000-entity spatial simulation by using Dependency Injection to swap between CPU mutation (Numba) and GPU vectorization (JAX).
-* 🧪 [Run the Interactive Colab Benchmark](INSERT_COLAB_LINK_HERE)
+* 🧪 [Run the Interactive Colab Benchmark](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/12PKDNMeRHfSFkAyzqzX700PppJcD3SsM/view?usp=sharing)
 
-#### 2. [Field Dynamic System (FDS)](INSERT_REPO_LINK_HERE)
+#### 2. [Field Dynamic System (FDS)](https://github.com/ckCrimson/Field_Dynamic_System.git)
 A high-performance mathematical framework engineered to model stochastic dynamic systems across continuous and discrete state spaces. 
 * **The Architecture:** Utilizes highly decoupled State Spaces, Vector Fields, and a custom generalized Markov chain engine.
 * **The Performance:** Leverages JAX to linearize complex spatial evaluations, allowing heavy probabilistic models to run directly on hardware-accelerated infrastructure.
