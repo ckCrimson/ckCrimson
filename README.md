@@ -29,4 +29,5 @@ A high-performance mathematical framework engineered to model stochastic dynamic
 
 ### 📫 Connect with me
 * **LinkedIn:** (www.linkedin.com/in/adityakumar70042)
+* **Email Id:** (ak7004271114@gmail.com)
 * **Current Focus:** Targeting research-level engineering roles and rigorous systems optimization challenges.
