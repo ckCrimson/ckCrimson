@@ -14,17 +14,33 @@ I specialize in bridging high-level Object-Oriented domain logic with bare-metal
 
 ### 🚀 Featured Architectures
 
-#### 1. [Hybrid ECS: Dual-Flow Architecture](https://github.com/ckCrimson/Hybrid_ECS_RANDOM_WALKER.git)
+#### 1. [Discrete State Engine (FDS Framework)](https://github.com/ckCrimson/discrete-state-engine)
+A high-performance, Python-based stochastic physics engine engineered to bypass Python's computational overhead in complex iterative environments.
+
+* **The Architecture:** Designed a "Dual-Flow Architecture" that enforces strict architectural separation. Components like the Field Mapper and Topology are entirely independent, communicating exclusively via decoupled, C-aligned Bridge Data objects.
+  
+* **The Performance:** Achieves near-C execution speeds in the simulation "hot loop" using **Numba JIT compilation**, custom **CSR (Compressed Sparse Row)** memory bridging, and strictly managed C-contiguous NumPy arrays.
+  
+* **The Impact:** Allows users to execute millions of iterative coordinate updates and overlapping multi-particle fields in $O(1)$ time without manually managing low-level pointers.
+  
+* * 🧪 Run the Interactive Colab Demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ilXh1Z-xg83XilleJGA4lG8OXFCWFaR8?usp=sharing)
+
+#### 2. [Hybrid ECS: Dual-Flow Architecture](https://github.com/ckCrimson/Hybrid_ECS_RANDOM_WALKER.git)
 A generalized Entity Component System explicitly designed to bypass the "Python Object Tax."
+
 * **The Architecture:** Flattens pure OOP hierarchical structures into contiguous C-arrays using strict memory contracts.
+  
 * **The Performance:** Achieved a **~300x execution speedup** on a 100,000-entity spatial simulation by using Dependency Injection to swap between CPU mutation (Numba) and GPU vectorization (JAX).
+  
 * 🧪 Run the Interactive Colab Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/12PKDNMeRHfSFkAyzqzX700PppJcD3SsM/view?usp=sharing)
 
-#### 2. [Field Dynamic System (FDS)](https://github.com/ckCrimson/Field_Dynamic_System.git)
-A high-performance mathematical framework engineered to model stochastic dynamic systems across continuous and discrete state spaces. 
-* **The Architecture:** Utilizes highly decoupled State Spaces, Vector Fields, and a custom generalized Markov chain engine.
-* **The Performance:** Leverages JAX to linearize complex spatial evaluations, allowing heavy probabilistic models to run directly on hardware-accelerated infrastructure.
 
+#### 3. [Legacy Field Dynamic System (JAX Engine)](https://github.com/ckCrimson/Field_Dynamic_System.git)
+The mathematical predecessor to the Discrete State Engine, built to explore tensor-based operations. 
+
+* **The Architecture:** Explores the mathematical foundations of State Spaces, Vector Fields, and custom generalized Markov chain engines.
+  
+* **The Performance:** Leverages JAX to linearize complex spatial evaluations, allowing heavy probabilistic models to run directly on hardware-accelerated infrastructure.
 ---
 
 ### 📫 Connect with me
