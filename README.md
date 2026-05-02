@@ -1,49 +1,62 @@
 # Hi, I'm Aditya Kumar 👋
 
-**Systems Engineer | High-Performance Computing | Backend Architect**
+**Product Engineer | Complex Systems Modeler | Backend Architect**
 
-I specialize in bridging high-level Object-Oriented domain logic with bare-metal, hardware-accelerated execution. By day, I build robust, scalable enterprise backends and APIs using Java and Spring. By night, I architect high-performance mathematical frameworks to model complex stochastic dynamic systems.
+I am a Software Engineer with two years of enterprise experience specializing in bridging high-level Object-Oriented domain logic with bare-metal, hardware-accelerated execution. By day, I build robust, scalable enterprise products and backend APIs using Java and the Spring ecosystem at TCS. By night, I architect high-performance computational mathematics frameworks and stochastic simulation engines in Python.
 
-### 🛠️ Core Tech Stack
-* **Languages:** Python, Java, C++, C
-* **High-Performance Compute:** JAX, Numba, NumPy, Hardware-Accelerated Vectorization (GPU/TPU)
-* **Backend & Enterprise:** Spring Ecosystem, RESTful APIs, Distributed Systems
-* **Mathematics:** Linear Algebra, Tensors, Markov Chains, Stochastic Modeling
+### 🎯 Career Objectives & Domains
+* **Target Roles:** Scientific Software Engineer, Simulation & Modeling Engineer, R&D Systems Architect.
+* **Domain Focus:** Complex Systems Modeling, High-Performance Computing (HPC), and translating heavy computational mathematics into hardware-optimized code.
 
 ---
 
-### 🚀 Featured Architectures
+### 🛠️ Technical Competencies & Engineering Practices
+
+* **Languages:** Python, Java, C++, C
+* **Computational Math & Simulation:** NumPy, JAX, Mathematical Modeling, Stochastic Systems. 
+* **Performance Optimization:** Numba (JIT compilation), CSR Memory Bridging, contiguous memory allocation.
+* **System Architecture:** Enterprise System Design, Decoupled Component Managers, Data-Oriented Design (DOD).
+* **Enterprise Backend:** Java Spring Boot, RESTful API design, Scalable Product Engineering.
+
+---
+
+### 🚀 Featured Architectures & Physics Engines
 
 #### 1. [Discrete State Engine (FDS Framework)](https://github.com/ckCrimson/discrete-state-engine)
-A high-performance, Python-based stochastic physics engine engineered to bypass Python's computational overhead in complex iterative environments.
+A stochastic physics engine engineered to bypass Python's computational overhead in complex iterative environments.
 
-* **The Architecture:** Designed a "Dual-Flow Architecture" that enforces strict architectural separation. Components like the Field Mapper and Topology are entirely independent, communicating exclusively via decoupled, C-aligned Bridge Data objects.
+* **The Architecture:** Designed a "Dual-Flow Architecture" that enforces strict separation between high-level mathematical rules and low-level memory operations.
   
-* **The Performance:** Achieves near-C execution speeds in the simulation "hot loop" using **Numba JIT compilation**, custom **CSR (Compressed Sparse Row)** memory bridging, and strictly managed C-contiguous NumPy arrays.
+* **The Performance:** Achieves near-C execution speeds in the simulation "hot loop" using Numba JIT, mapping coordinates to 64-bit aligned memory blocks.
   
-* **The Impact:** Allows users to execute millions of iterative coordinate updates and overlapping multi-particle fields in $O(1)$ time without manually managing low-level pointers.
-  
-* * 🧪 Run the Interactive Colab Demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ilXh1Z-xg83XilleJGA4lG8OXFCWFaR8?usp=sharing)
+* **The Impact:** Executes millions of iterative coordinate updates and overlapping multi-particle fields in $O(1)$ time without exposing users to low-level pointers.
+
+  * 🧪 Run the Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ilXh1Z-xg83XilleJGA4lG8OXFCWFaR8?usp=sharing)
 
 #### 2. [Hybrid ECS: Dual-Flow Architecture](https://github.com/ckCrimson/Hybrid_ECS_RANDOM_WALKER.git)
 A generalized Entity Component System explicitly designed to bypass the "Python Object Tax."
 
 * **The Architecture:** Flattens pure OOP hierarchical structures into contiguous C-arrays using strict memory contracts.
   
-* **The Performance:** Achieved a **~300x execution speedup** on a 100,000-entity spatial simulation by using Dependency Injection to swap between CPU mutation (Numba) and GPU vectorization (JAX).
+* **The Performance:** Achieved a **~300x execution speedup** on a 100,000-entity spatial simulation by swapping between CPU mutation (Numba) and GPU vectorization (JAX).
   
-* 🧪 Run the Interactive Colab Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/12PKDNMeRHfSFkAyzqzX700PppJcD3SsM/view?usp=sharing)
-
+* 🧪 Run the Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/12PKDNMeRHfSFkAyzqzX700PppJcD3SsM/view?usp=sharing)
 
 #### 3. [Legacy Field Dynamic System (JAX Engine)](https://github.com/ckCrimson/Field_Dynamic_System.git)
 The mathematical predecessor to the Discrete State Engine, built to explore tensor-based operations. 
 
-* **The Architecture:** Explores the mathematical foundations of State Spaces, Vector Fields, and custom generalized Markov chain engines.
+* **The Concept:** Explores the mathematical foundations of State Spaces, Vector Fields, and custom generalized Markov chain engines.
   
-* **The Performance:** Leverages JAX to linearize complex spatial evaluations, allowing heavy probabilistic models to run directly on hardware-accelerated infrastructure.
+* **The Execution:** Leverages JAX to linearize complex spatial evaluations, allowing heavy probabilistic models to run directly on hardware-accelerated infrastructure.
+
+---
+
+### 🎓 Professional Background
+* **Product Engineer & Backend Developer** @ Tata Consultancy Services (TCS) — *(2024 - Present)*
+* **B.Tech in Computer Science & Engineering** @ Institute of Engineering and Management (IEM)
+
 ---
 
 ### 📫 Connect with me
-* **LinkedIn:** (www.linkedin.com/in/adityakumar70042)
-* **Email Id:** (ak7004271114@gmail.com)
-* **Current Focus:** Targeting research-level engineering roles and rigorous systems optimization challenges.
+* **LinkedIn:** [linkedin.com/in/adityakumar70042](https://www.linkedin.com/in/adityakumar70042)
+* **Email:** ak7004271114@gmail.com
