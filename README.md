@@ -32,8 +32,16 @@ A stochastic physics engine engineered to bypass Python's computational overhead
 * **The Impact:** Executes millions of iterative coordinate updates and overlapping multi-particle fields in $O(1)$ time without exposing users to low-level pointers.
 
   * 🧪 Run the Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ilXh1Z-xg83XilleJGA4lG8OXFCWFaR8?usp=sharing)
+ 
+#### 2. [Legacy Field Dynamic System (JAX Engine)](https://github.com/ckCrimson/Field_Dynamic_System.git)
+The mathematical predecessor to the Discrete State Engine, built to explore tensor-based operations. 
 
-#### 2. [Hybrid ECS: Dual-Flow Architecture](https://github.com/ckCrimson/Hybrid_ECS_RANDOM_WALKER.git)
+* **The Concept:** Explores the mathematical foundations of State Spaces, Vector Fields, and custom generalized Markov chain engines.
+  
+* **The Execution:** Leverages JAX to linearize complex spatial evaluations, allowing heavy probabilistic models to run directly on hardware-accelerated infrastructure.
+
+
+#### 3. [Hybrid ECS: Dual-Flow Architecture](https://github.com/ckCrimson/Hybrid_ECS_RANDOM_WALKER.git)
 A generalized Entity Component System explicitly designed to bypass the "Python Object Tax."
 
 * **The Architecture:** Flattens pure OOP hierarchical structures into contiguous C-arrays using strict memory contracts.
@@ -42,12 +50,6 @@ A generalized Entity Component System explicitly designed to bypass the "Python 
   
 * 🧪 Run the Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/12PKDNMeRHfSFkAyzqzX700PppJcD3SsM/view?usp=sharing)
 
-#### 3. [Legacy Field Dynamic System (JAX Engine)](https://github.com/ckCrimson/Field_Dynamic_System.git)
-The mathematical predecessor to the Discrete State Engine, built to explore tensor-based operations. 
-
-* **The Concept:** Explores the mathematical foundations of State Spaces, Vector Fields, and custom generalized Markov chain engines.
-  
-* **The Execution:** Leverages JAX to linearize complex spatial evaluations, allowing heavy probabilistic models to run directly on hardware-accelerated infrastructure.
 
 ---
 
