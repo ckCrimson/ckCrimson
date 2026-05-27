@@ -47,7 +47,7 @@ A stochastic physics engine engineered to bypass Python's computational overhead
   
 * **The Impact:** Executes millions of iterative coordinate updates and overlapping multi-particle fields in $O(1)$ time without exposing users to low-level pointers.
 
-  * 🧪 Run the Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ilXh1Z-xg83XilleJGA4lG8OXFCWFaR8?usp=sharing)
+  *  Run the Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ilXh1Z-xg83XilleJGA4lG8OXFCWFaR8?usp=sharing)
  
 #### 3. [Legacy Field Dynamic System (JAX Engine)](https://github.com/ckCrimson/Field_Dynamic_System.git)
 The mathematical predecessor to the Discrete State Engine, built to explore tensor-based operations. 
@@ -64,7 +64,7 @@ A generalized Entity Component System explicitly designed to bypass the "Python 
   
 * **The Performance:** Achieved a **~300x execution speedup** on a 100,000-entity spatial simulation by swapping between CPU mutation (Numba) and GPU vectorization (JAX).
   
-* 🧪 Run the Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/12PKDNMeRHfSFkAyzqzX700PppJcD3SsM/view?usp=sharing)
+*  Run the Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/12PKDNMeRHfSFkAyzqzX700PppJcD3SsM/view?usp=sharing)
 
 
 ---
