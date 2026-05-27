@@ -1,6 +1,6 @@
 # Hi, I'm Aditya Kumar 👋
 
-**Product Engineer | Complex Systems Modeler | Backend Architect**
+**Software Engineer | Complex Systems Modeler| High Performence Computing | Backend Architect**
 
 I am a Software Engineer with two years of enterprise experience specializing in bridging high-level Object-Oriented domain logic with bare-metal, hardware-accelerated execution. By day, I build robust, scalable enterprise products and backend APIs using Java and the Spring ecosystem at TCS. By night, I architect high-performance computational mathematics frameworks and stochastic simulation engines in Python.
 
