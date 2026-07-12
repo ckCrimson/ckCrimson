@@ -1,79 +1,73 @@
-# Hi, I'm Aditya Kumar 👋
+<h1 align="left">Aditya Kumar</h1>
+<h3 align="left">Full Stack Systems Engineer | AI Integration & JVM Architecture</h3>
 
-**Software Engineer | Complex Systems Modeler| High Performence Computing | Backend Architect**
+<p align="left">
+  <a href="https://www.linkedin.com/in/adityakumar70042/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:adiakumar27@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
-I am a Software Engineer with two years of enterprise experience specializing in bridging high-level Object-Oriented domain logic with bare-metal, hardware-accelerated execution. By day, I build robust, scalable enterprise products and backend APIs using Java and the Spring ecosystem at TCS. By night, I architect high-performance computational mathematics frameworks and stochastic simulation engines in Python.
-
-### 🎯 Career Objectives & Domains
-* **Target Roles:** Scientific Software Engineer, Simulation & Modeling Engineer, R&D Systems Architect.
-* **Domain Focus:** Complex Systems Modeling, High-Performance Computing (HPC), and translating heavy computational mathematics into hardware-optimized code.
-
----
-
-### 🛠️ Technical Competencies & Engineering Practices
-
-* **Languages:** Python, Java, C++, C
-* **Computational Math & Simulation:** NumPy, JAX, Mathematical Modeling, Stochastic Systems. 
-* **Performance Optimization:** Numba (JIT compilation), CSR Memory Bridging, contiguous memory allocation.
-* **System Architecture:** Enterprise System Design, Decoupled Component Managers, Data-Oriented Design (DOD).
-* **Enterprise Backend:** Java Spring Boot, RESTful API design, Scalable Product Engineering.
+<p align="left">
+  I am a backend-heavy Full Stack Engineer specializing in the JVM ecosystem, enterprise AI integration, and responsive user interfaces. My engineering focus is bridging secure frontend applications (React) with intelligent AI capabilities (RAG, LangChain4j), all orchestrated by strictly deterministic Java backends. Beyond simply connecting frameworks, I rely on rigorous execution profiling, algorithmic optimization, and deep system design to ensure these complex, AI-driven platforms run at true enterprise scale without bottlenecks.
+</p>
 
 ---
 
-### 🚀 Featured Architectures & Physics Engines
+### 🛠️ The Tech Stack
 
-#### 1. [Discrete State Engine (FDS Framework)](https://github.com/ckCrimson/discrete-state-engine)
-A stochastic physics engine engineered to bypass Python's computational overhead in complex iterative environments.
+**Enterprise Full Stack**  
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![React.js](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-* **The Architecture:** Designed a "Dual-Flow Architecture" that enforces strict separation between high-level mathematical rules and low-level memory operations.
-  
+**AI Integration & RAG**  
+![LangChain4j](https://img.shields.io/badge/LangChain4j-FF9900?style=for-the-badge&logo=chainlink&logoColor=white)
+![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![PGVector](https://img.shields.io/badge/PGVector-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**System Design & Architecture**  
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Microservices](https://img.shields.io/badge/Microservices-0089D6?style=for-the-badge&logo=gear&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+![AWS / CI-CD](https://img.shields.io/badge/AWS_CI--CD-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+
+**High-Performance Profiling**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JAX](https://img.shields.io/badge/JAX-000000?style=for-the-badge&logo=google&logoColor=white)
+![Numba](https://img.shields.io/badge/Numba-00A3E0?style=for-the-badge&logo=numba&logoColor=white)
+![JVM Profiling](https://img.shields.io/badge/JVM_Profiling-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+---
+
+### 🚀 Featured Architecture
+
+#### Project Nexus: Enterprise Workflow State Machine & RAG Platform
+**Tech:** Java, Spring Boot, React.js, Python, FastAPI, LangChain4j, Spring AI, PostgreSQL.
+
+* Traversed graph trees across 50,000+ mock nodes using PostgreSQL recursive CTEs, entirely eliminating N+1 query bottlenecks.
+* Applied Data-Oriented Design (DOD) principles, utilizing flattened 1D arrays and monomorphic inline caching to prevent CPU L1 cache pollution and achieve sub-15ms execution times.
+
+#### [Discrete State Engine (FDS Framework)](https://github.com/ckCrimson/discrete-state-engine)
+**Tech:** Python, JAX, Numba, Object-Oriented Design (OOD), Data-Oriented Design (DOD).
+
+*A stochastic physics engine engineered to bypass Python's computational overhead in complex iterative environments.*
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ilXh1Z-xg83XilleJGA4lG8OXFCWFaR8?usp=sharing)
+
+* **The Architecture:** Designed a "Dual-Flow Architecture" (Bake/Sync) that enforces a strict separation between high-level mathematical rules and low-level memory operations.
 * **The Performance:** Achieves near-C execution speeds in the simulation "hot loop" using Numba JIT, mapping coordinates to 64-bit aligned memory blocks.
-  
-* **The Impact:** Executes millions of iterative coordinate updates and overlapping multi-particle fields in $O(1)$ time without exposing users to low-level pointers.
-
-  *  Run the Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ilXh1Z-xg83XilleJGA4lG8OXFCWFaR8?usp=sharing)
-
-#### 2. [FastSpatialEngine: Multi-Threaded Query Kernel](https://github.com/ckCrimson/SwarmCore.git)
-A high-performance, bare-metal 3D spatial proximity engine engineered in native C++20 with seamless Python interoperability.
-
-* **The Architecture:** Implements a Struct of Arrays (SoA) memory layout and a 3D Uniform Spatial Hash Grid, reducing proximity query time complexity from an $O(N^2)$ brute-force down to an $O(N)$ hash-bucket lookup.
-  
-* **The Performance:** Benchmarked to process **1,000,000 active entities at 60 FPS** by leveraging data-parallelism, custom memory arena allocation, and CPU cache-line prefetching optimization.
-  
-* **The Interoperability:** Integrated **pybind11** cross-language bindings to expose the high-throughput native C++ compute kernel to Python simulation environments with zero-copy data passing.
-
-###  Upcoming Architectures (v2 Roadmap)
-
-* **Cross-Language Bake-and-Sync Architecture:** Engineering a dual-layer simulation pipeline bridging a high-level **C#/.NET** domain layer with a native **C++20** backend. High-level entity configurations are "baked" into tightly packed contiguous memory regions, using an optimized synchronization layer to replicate states across the managed/unmanaged boundary with minimal marshaling overhead.
-* **Narrow-Phase Collision Detection:** Expanding the `SwarmCore` kernel to move from broad-phase spatial hashing to exact, primitive-level collision detection and resolution algorithms optimized for multi-core scaling.
-* **Modular Physics Modules:** Devising a decoupled plugin architecture allowing researchers to hot-swap custom interaction fields (e.g., fluid dynamics, structural stress boundaries) into the unified compute loop.
- 
-#### 3. [Legacy Field Dynamic System (JAX Engine)](https://github.com/ckCrimson/Field_Dynamic_System.git)
-The mathematical predecessor to the Discrete State Engine, built to explore tensor-based operations. 
-
-* **The Concept:** Explores the mathematical foundations of State Spaces, Vector Fields, and custom generalized Markov chain engines.
-  
-* **The Execution:** Leverages JAX to linearize complex spatial evaluations, allowing heavy probabilistic models to run directly on hardware-accelerated infrastructure.
-
-
-#### 4. [Hybrid ECS: Dual-Flow Architecture](https://github.com/ckCrimson/Hybrid_ECS_RANDOM_WALKER.git)
-A generalized Entity Component System explicitly designed to bypass the "Python Object Tax."
-
-* **The Architecture:** Flattens pure OOP hierarchical structures into contiguous C-arrays using strict memory contracts.
-  
-* **The Performance:** Achieved a **~300x execution speedup** on a 100,000-entity spatial simulation by swapping between CPU mutation (Numba) and GPU vectorization (JAX).
-  
-*  Run the Benchmark: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/12PKDNMeRHfSFkAyzqzX700PppJcD3SsM/view?usp=sharing)
-
+* **The Impact:** Executes millions of iterative coordinate updates and overlapping multi-particle fields in O(1) time without exposing users to low-level pointers.
+* **The Metrics:** Computes 100-step lookaheads with 8-way branching across 10 distinct particles in under 500 milliseconds. Bypassed extreme combinatorial explosion constraints (theoretical naive bounds approaching 80<sup>100</sup>) by engineering overlapping state identification and aggressive caching heuristics.
 
 ---
 
-### 🎓 Professional Background
-* **Product Engineer & Backend Developer** @ Tata Consultancy Services (TCS) — *(2024 - Present)*
-* **B.Tech in Computer Science & Engineering** @ Institute of Engineering and Management (IEM)
+### 📊 Dynamic Widgets & Analytics
 
----
-
-### 📫 Connect with me
-* **LinkedIn:** [linkedin.com/in/adityakumar70042](https://www.linkedin.com/in/adityakumar70042)
-* **Email:** ak7004271114@gmail.com
+<div align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=ckCrimson&show_icons=true&theme=radical&hide_border=true" alt="Aditya's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ckCrimson&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+</div>
