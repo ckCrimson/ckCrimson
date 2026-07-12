@@ -8,8 +8,8 @@
   <a href="mailto:adiakumar27@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-    <a href="mailto:adiakumar27@gmail.com">
-    <img src="Aditya Kumar Resume.pdf" />
+    <a href="Aditya Kumar Resume.pdf">
+    <img src="https://img.shields.io/badge/Resume-4CAF50?style=for-the-badge&logo=read-the-docs&logoColor=white" />
   </a>
 </p>
 
