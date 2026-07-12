@@ -48,9 +48,13 @@
 ### 1. [Project Nexus: Enterprise Workflow State Machine & RAG Platform](https://github.com/ckCrimson/Nexus-Workflow-Management-Tool-.git)
 **Tech:** Java, Spring Boot, React.js, Python, FastAPI, LangChain4j, Spring AI, PostgreSQL.
 
-* Traversed graph trees across 50,000+ mock nodes using PostgreSQL recursive CTEs, entirely eliminating N+1 query bottlenecks.
-* Applied Data-Oriented Design (DOD) principles, utilizing flattened 1D arrays and monomorphic inline caching to prevent CPU L1 cache pollution and achieve sub-15ms execution times.
+*An enterprise-grade workflow management tool designed to dynamically plan tasks, compute optimal execution paths, and deliver context-aware AI recommendations for goal achievement.*
 
+* **The Problem Solved:** Replaces rigid task schedulers with an intelligent routing engine that evaluates multiple workflow paths to find the most efficient solution for target goals.
+* **The Architecture:** Employs a "Component Manager" facade paired with strict interface boundaries to decouple core modules. This guarantees flexible versioning and highly resilient system architecture.
+* **The AI Integration:** Orchestrates secure RAG pipelines using LangChain4j, querying a cloud-hosted, fine-tuned LLM to generate and stream structured recommendations for each computed pathway.
+* **The Optimization:** Implements a "Bake/Sync" dual-flow phase to optimize memory layout for critical operations like graph traversal, utilizing flattened 1D arrays to prevent CPU L1 cache pollution.
+* **The Metrics:** Traversed complex graph trees across 50,000+ mock nodes using PostgreSQL recursive CTEs—entirely eliminating N+1 query bottlenecks and achieving sub-15ms execution times.
 <br>
 
 ### 2. [Discrete State Engine (FDS Framework)](https://github.com/ckCrimson/discrete-state-engine)
