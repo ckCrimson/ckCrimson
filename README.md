@@ -16,7 +16,7 @@
 
 ---
 
-### 🛠️ The Tech Stack
+## 🛠️ The Tech Stack
 
 **Enterprise Full Stack**  
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
@@ -43,15 +43,17 @@
 
 ---
 
-### 🚀 Featured Architecture
+## 🚀 Featured Architecture
 
-#### Project Nexus: Enterprise Workflow State Machine & RAG Platform
+### 1. [Project Nexus: Enterprise Workflow State Machine & RAG Platform](https://github.com/ckCrimson/Nexus-Workflow-Management-Tool-.git)
 **Tech:** Java, Spring Boot, React.js, Python, FastAPI, LangChain4j, Spring AI, PostgreSQL.
 
 * Traversed graph trees across 50,000+ mock nodes using PostgreSQL recursive CTEs, entirely eliminating N+1 query bottlenecks.
 * Applied Data-Oriented Design (DOD) principles, utilizing flattened 1D arrays and monomorphic inline caching to prevent CPU L1 cache pollution and achieve sub-15ms execution times.
 
-#### [Discrete State Engine (FDS Framework)](https://github.com/ckCrimson/discrete-state-engine)
+<br>
+
+### 2. [Discrete State Engine (FDS Framework)](https://github.com/ckCrimson/discrete-state-engine)
 **Tech:** Python, JAX, Numba, Object-Oriented Design (OOD), Data-Oriented Design (DOD).
 
 *A stochastic physics engine engineered to bypass Python's computational overhead in complex iterative environments.*
@@ -65,7 +67,7 @@
 
 ---
 
-### 📊 Dynamic Widgets & Analytics
+## 📊 Dynamic Widgets & Analytics
 
 <div align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=ckCrimson&show_icons=true&theme=radical&hide_border=true" alt="Aditya's GitHub Stats" />
