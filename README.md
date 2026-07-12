@@ -73,7 +73,5 @@
 
 ## 📊 Dynamic Widgets & Analytics
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=ckCrimson&show_icons=true&theme=radical&hide_border=true" alt="Aditya's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ckCrimson&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</div>
+[![Aditya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ckCrimson&show_icons=true&theme=radical&hide_border=true)](https://github.com/ckCrimson)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ckCrimson&layout=compact&theme=radical&hide_border=true)](https://github.com/ckCrimson)
